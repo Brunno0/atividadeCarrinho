@@ -1,0 +1,26 @@
+import React from "react";
+import styled from "styled-components";
+
+
+const CardProdutos = styled.div `
+display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+  margin: 10px 0;
+`
+
+function Produtos(props) {
+
+return <div> 
+
+  <CardProdutos>
+     <p>{props.produto.name}</p> 
+  <p>{props.produto.price}</p>
+  <button>Comprar</button>
+  </CardProdutos>
+
+</div>
+
+}
+export default Produtos
