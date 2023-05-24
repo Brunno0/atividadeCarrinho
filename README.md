@@ -13,13 +13,12 @@ A atividade consiste em observar o fluxo de dados do template fornecido e respon
 
 ## Imagem do Fluxo de Dados
 
-![Imagem do Fluxo de Dados](imagem_fluxo_dados.png)
+![Imagem do Fluxo de Dados](carrinho.png)
 
 ## Instruc"es
 
-Clone este repositório para a sua máquina local:
+Clone este repositório para a sua máquina local
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
 Abra o arquivo carrinho.js para visualizar o código relacionado ao carrinho.
 
 Observe a imagem do fluxo de dados para entender como as informações são transmitidas entre os componentes.
